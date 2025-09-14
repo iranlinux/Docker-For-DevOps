@@ -11,4 +11,4 @@ services:
         constraints:
           - node.role == worker
           - node.labels.environment == production
-          - node.labels.zone == east-1-d
+          - node.labels.zone == west-2-d
