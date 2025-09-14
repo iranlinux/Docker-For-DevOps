@@ -12,3 +12,10 @@ services:
          - node.role==worker
          - node.labels.environment==production
          - node.labels.zone==west-2-d
+
+
+##docker node update --label-add environment=production --label-add zone=west-2-d Docker-01
+##docker node update --label-add environment=production --label-add zone=west-2-d Docker-02
+##docker node update --label-add environment=production --label-add zone=west-2-d Docker-03
+
+
