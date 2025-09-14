@@ -9,6 +9,6 @@ services:
       replicas: 3
       placement:
         constraints:
-          - node.role == worker
-          - node.labels.environment == production
-          - node.labels.zone == west-2-d
+         - node.role==worker
+         - node.labels.environment==production
+         - node.labels.zone==west-2-d
